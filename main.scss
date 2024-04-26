@@ -1,5 +1,9 @@
 @import "_base.scss";
 
+.fixed-position {
+  position: fixed;
+}
+
 header {
   height: 100px;
   position: absolute;
@@ -37,7 +41,7 @@ nav {
   display: none;
   flex-direction: column;
   justify-content: flex-end;
-  background: $main;
+  // background: $main;
   color: #fff;
   width: 100%;
   height: 100%;
@@ -55,7 +59,7 @@ nav {
     // width: 99%;
     background-color: $white;
     margin: 0 12px;
-    border-radius: 12px 12px 0 0;
+    border-radius: 12px 12px 12px 12px;
     gap: 15px;
     padding-bottom: 60px;
     .menu-toggle {

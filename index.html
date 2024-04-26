@@ -408,6 +408,16 @@
       </div>
     </footer>
 
+    <script>
+      $(document).ready(() => {
+        let isMenuAlreadyOpen = false;
+        $(".menu-toggle").on("click", () => {
+          $("body").css("overflow", isMenuAlreadyOpen ? "auto" : "hidden");
+          isMenuAlreadyOpen = !isMenuAlreadyOpen;
+        });
+      });
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
