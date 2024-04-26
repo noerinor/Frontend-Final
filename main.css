@@ -144,11 +144,12 @@ nav {
 .menu .menu-sec {
   display: flex;
   flex-direction: column;
+  position: relative;
   background-color: rgb(255, 255, 255);
   margin: 0 8px;
   border-radius: 12px 12px 0 0;
   gap: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 }
 .menu .menu-sec .menu-toggle {
   display: block;
