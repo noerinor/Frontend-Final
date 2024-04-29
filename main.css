@@ -154,7 +154,7 @@ nav {
   margin: 0 12px;
   border-radius: 12px 12px 12px 12px;
   gap: 15px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .menu .menu-sec .menu-toggle {
   display: block;
@@ -315,7 +315,7 @@ nav {
   left: 0;
   background-color: rgb(240, 20, 90);
   height: 2px;
-  transition: width 0.5s ease-out;
+  transition: width 0.5s ease-in-out;
 }
 .flex-links a:hover,
 .flex-links a:focus {
@@ -832,6 +832,9 @@ nav {
 }
 
 @media only screen and (max-width: 768px) {
+  .text {
+    padding: 0 30px;
+  }
   .pub-sec {
     width: 100%;
   }

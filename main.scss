@@ -61,7 +61,7 @@ nav {
     margin: 0 12px;
     border-radius: 12px 12px 12px 12px;
     gap: 15px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     .menu-toggle {
       display: block;
       width: 30px;
@@ -226,7 +226,7 @@ nav {
       left: 0;
       background-color: $accent;
       height: 2px;
-      transition: width 0.5s ease-out;
+      transition: width 0.5s ease-in-out;
     }
   }
 
@@ -366,15 +366,6 @@ nav {
     position: relative;
     color: rgba(255, 255, 255, 0.3);
   }
-  // a:after {
-  //   content: "";
-  //   position: absolute;
-  //   right: -64px;
-  //   top: 0;
-  //   bottom: 0;
-  //   border-right: 4px solid rgba(179, 179, 186, 0);
-  //   transition: border-right-color 0.5s;
-  // }
   a:hover,
   a:focus,
   a:active {
@@ -723,6 +714,9 @@ nav {
 }
 
 @media only screen and (max-width: 768px) {
+  .text {
+    padding: 0 30px;
+  }
   .pub-sec {
     width: 100%;
   }
